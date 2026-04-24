@@ -5,7 +5,6 @@ using UnityEngine;
 public class AddPoints : MonoBehaviour
 {
     public Transform transform;
-
     public LixoSpawnerController lixoSpawnerController;
     private void OnCollisionEnter(Collision collision) {
         // Optional: Check if the entering object is the Player
